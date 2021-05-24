@@ -8,16 +8,23 @@
         <title>Séries</title>
     </head>
     <body>
+        <main>
     <h2>Qual dessas Séries você mais gosta:</h2>
-        <ol>
+        <ul>
             <li>InuYasha</li>
             <li>Naruto</li>
             <li>SwordArt</li>
             <li>Game Of Thrones</li>
             <li>The Mandalorian</li>
-        </ol>
-        <Input type="text" placeholder="Digite Aqui" id="resposta"></Input>
+        </ul>
+        </main>
+        <label for="serie">Serie Preferida: </label>
+        <Input type="text" placeholder="Digite Aqui" id="serie"></Input>
+        <label for="epsVistos">  Numero De Eps Vistos: </label>
+        <input type="text" placeholder="Digite Aqui" id="epsVistos">
         <button id="enviar">Enviar</button>
+        <div id="mostrar"></div>
+        
     </body>
     <script src="index.js"></script>
 </html>
